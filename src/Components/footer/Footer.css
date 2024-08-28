@@ -1,0 +1,45 @@
+footer {
+  background-color: rgb(38, 35, 35);
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  height: 400px;
+}
+.connect {
+  display: flex;
+  margin-left: 8%;
+  /* font-size: large; */
+}
+.connect-txt {
+  color: white;
+  margin-top: 1%;
+}
+.connect-btn {
+  padding: 10px 15px;
+  margin-left: 65%;
+  margin-top: 1%;
+  background-color: #10b981;
+  border: 2px solid #10b981;
+  border-radius: 24px;
+}
+.connect-btn .inner-connect {
+  color: white;
+
+}
+.horizontal-line {
+  width: 87%;
+  margin-top: 3%;
+  margin-left: 8%;
+}
+.bio {
+  color: white;
+  margin-top: 3%;
+  margin-left: 8%;
+  font-size: medium;
+}
+/* a{
+    color: white;
+  margin-left: 2%;
+  padding: 0px;
+  background-color: white;
+
+} */

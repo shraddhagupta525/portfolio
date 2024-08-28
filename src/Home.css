@@ -1,0 +1,39 @@
+.discuss{
+    color: #10B981;
+    ;
+}
+.contact{
+    margin: 2%;
+    margin-left: 28%;
+    padding: 3%;
+    
+}
+.email{
+    margin-top: 4%;
+    margin-left: 3%;
+    display: flex;
+    color: #10B981;
+    border: 2px solid ;
+    border-radius: 24px;
+    padding: 2px;
+    align-items: center;
+    width: 500px;
+    
+}
+.send{
+    border: 2px solid #10B981;
+    border-radius: 24px;
+    padding:10px 15px;
+    background-color: #10B981;
+    color: white;
+}
+.email input{
+    border-radius: 24px;
+}
+.emailicon{
+    color: #10B981;
+
+    font-size: 30px;
+    margin-left: 10px;
+
+}
