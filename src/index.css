@@ -32,6 +32,8 @@ a {
   padding: 10px 20px;
   border: none;
   border-radius: 24px;
+  height: fit-content;
+  width: fit-content;
 }
 
 textarea,

@@ -33,13 +33,32 @@ footer {
 .bio {
   color: white;
   margin-top: 3%;
-  margin-left: 8%;
   font-size: medium;
+  text-align: justify;
 }
-/* a{
-    color: white;
-  margin-left: 2%;
-  padding: 0px;
-  background-color: white;
 
-} */
+.social-links{
+  display: flex;
+  gap: 6px;
+}
+.social-links svg{
+  color: white;
+}
+.details{
+  margin: 0px 7%;
+  width: 35%;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact{
+
+
+}
+.navigation{
+  
+  
+}
