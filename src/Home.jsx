@@ -5,6 +5,18 @@ import { MdEmail } from "react-icons/md";
 export default function Home() {
   return (
     <>
+    {/* intro part */}
+    <section className="intro">
+      <h1>
+        Hello! <br />I'm Shraddha gupta, <br /><span className="full-satck">Full stack developer
+          </span> 
+      </h1>
+
+
+
+
+
+    </section>
       {/* contact through email */}
       <section className="contact">
         <h1>
