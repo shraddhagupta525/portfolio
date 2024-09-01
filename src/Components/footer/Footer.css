@@ -46,16 +46,17 @@ footer {
 }
 .details{
   margin: 0px 7%;
-  width: 35%;
+  width: 45%;
 }
 
 .social{
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  flex-direction: row;
+  gap: 200px;
 }
 .contact{
-
+margin-top: 0%;
+padding: 0%;
 
 }
 .navigation{

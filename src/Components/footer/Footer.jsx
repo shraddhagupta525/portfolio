@@ -64,7 +64,6 @@ export default function Footer() {
           </div>
           <div className="contact">
           <h2>Contact</h2>
-
             <ul>
               <li>
                 <a href="tel:9335121330">9335121330</a>
