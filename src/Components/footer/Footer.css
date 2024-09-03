@@ -23,7 +23,6 @@ footer {
 }
 .connect-btn .inner-connect {
   color: white;
-
 }
 .horizontal-line {
   width: 87%;
@@ -33,33 +32,39 @@ footer {
 .bio {
   color: white;
   margin-top: 3%;
-  font-size: medium;
+  font-size: 0.85rem;
   text-align: justify;
 }
 
-.social-links{
+.social-links {
   display: flex;
   gap: 6px;
 }
-.social-links svg{
+.social-links svg {
   color: white;
 }
-.details{
-  margin: 0px 7%;
-  width: 45%;
-}
-
-.social{
+footer .details {
+  margin: 50px 7%;
   display: flex;
-  flex-direction: row;
-  gap: 200px;
+  justify-content: space-between;
 }
-.contact{
-margin-top: 0%;
-padding: 0%;
 
+footer .social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  padding: 0 2%;
 }
-.navigation{
-  
-  
+footer .contact {
+  padding: 0 2%;
+  margin-top: 0%;
+  padding: 0%;
+  width: 30%;
+  margin: 0%;
+}
+footer .navigation {
+  padding: 0 2%;
+  margin: 0%;
+  width: 30%;
 }

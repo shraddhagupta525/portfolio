@@ -33,6 +33,7 @@
   font-size: 30px;
   margin-left: 10px;
 }
+
 .intro {
   margin-top: 1%;
   margin-left: 35%;
@@ -41,66 +42,73 @@
   align-items: center;
   margin: 0px 7%;
 }
-.profile-image{
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    margin-top: 3%;
-    margin-left: 40%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.profile-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-top: 3%;
+  margin-left: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.full-intro{
-    font-size: medium;
+.full-intro {
+  font-size: medium;
 }
-.about-me-btn{
-    margin-top: 7%;
-    width: 40%;
-    padding:3%;
+.about-me-btn {
+  margin-top: 7%;
+  width: 40%;
+  padding: 3%;
+  height: fit-content;
+  /* width: fit-content; */
+  color: white;
+  background-color: #10b981;
 
-    border: 2px solid #10b981;
-    border-radius: 45px;
-    font-size: medium;
-    /* margin-left: 10%; */
+  border: 2px solid #10b981;
+  border-radius: 45px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-.about-me{
-    margin-top: 1%;
-    margin-left: 45%;
-
+.about-me-btn:hover {
+  background-color: #0e9e73;
+  color: #fff;
+  border-color: #0e9e73;
+  transform: scale(1.05);
 }
-.education-details{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1%;
-    margin-left: 7%;
+.right-icon {
+  margin-left: 4%;
+  font-size: 20px;
+  margin-bottom: -2%;
 }
-.graduation{
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    align-items: justify;
-    margin: 2%;
+.about-me {
+  margin-top: 1%;
+  margin-left: 45%;
 }
-.twelveth{
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    align-items: justify;
-    margin: 2%;
-
+.education-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  margin-left: 7%;
 }
-.tenth{
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    align-items: justify;
-    margin: 2%;
-    
-
-
+.graduation {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  align-items: justify;
+  margin: 2%;
 }
-.dot3{
-   
-
-
-
+.twelveth {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  align-items: justify;
+  margin: 2%;
+}
+.tenth {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  align-items: justify;
+  margin: 2%;
+}
+.dot3 {
 }

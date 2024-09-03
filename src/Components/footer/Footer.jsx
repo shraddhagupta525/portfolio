@@ -31,50 +31,50 @@ export default function Footer() {
             at Lovely Professional University.
           </p>
 
-        <div className="social-links">
-          <a href="https://www.linkedin.com/in/shraddha-gupta-7a44a1237/">
-            <FaLinkedin />
-          </a>
-          <a href="https://github.com/shraddhagupta525">
-            <FaGithub />
-          </a>
-          <a href="https://leetcode.com/u/shraddhagupta525/">
-            <SiLeetcode />
-          </a>
-          <a href="https://www.instagram.com/shraddhagupta_525/">
-            <FaInstagram />
-          </a>
+          <div className="social-links">
+            <a href="https://www.linkedin.com/in/shraddha-gupta-7a44a1237/">
+              <FaLinkedin />
+            </a>
+            <a href="https://github.com/shraddhagupta525">
+              <FaGithub />
+            </a>
+            <a href="https://leetcode.com/u/shraddhagupta525/">
+              <SiLeetcode />
+            </a>
+            <a href="https://www.instagram.com/shraddhagupta_525/">
+              <FaInstagram />
+            </a>
+          </div>
         </div>
-          <div className="navigation">
-            <h2>Navigation</h2>
-            <ul className="menu">
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Projects</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div className="contact">
+        <div className="navigation">
+          <h2>Navigation</h2>
+          <ul className="menu">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div className="contact">
           <h2>Contact</h2>
-            <ul>
-              <li>
-                <a href="tel:9335121330">9335121330</a>
-              </li>
-              <li>
-                <a href="mailto:shraddhagupta8216@gmail.com">
-                  shraddhagupta8216@gmail.com
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ul>
+            <li>
+              <a href="tel:9335121330">9335121330</a>
+            </li>
+            <li>
+              <a href="mailto:shraddhagupta8216@gmail.com">
+                shraddhagupta8216@gmail.com
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { MdEmail } from "react-icons/md";
+import { FaChevronCircleRight } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -9,13 +10,15 @@ export default function Home() {
       <div className="intro">
         <h1>
           Hello! I'm Shraddha gupta, <br />
-          <span className="full-satck">Web developer</span> <br />
+          <span className="full-stack">Web developer</span> <br />
           <span className="full-intro">
             <p>
               A Frontend focused Web Developer building the Frontend of Websites
               and Web Applications that leads to the success of the overall
               product
-              <button className="about-me-btn">About Me </button>
+              <button className="about-me-btn">
+                About Me <FaChevronCircleRight className="right-icon" />
+              </button>
             </p>
           </span>
         </h1>
@@ -51,11 +54,12 @@ export default function Home() {
         <div className="twelveth">
           <div className="college">
             <h1>The ideal new star english school</h1>
-            <p>Varansi, Uttar Pradesh | July-2019 to May 2020</p>
+            <p>Varanasi, Uttar Pradesh | July-2019 to May 2020</p>
           </div>
           <div className="dot2">
             {/* for dotted designing */}
-            <h1>.</h1></div>
+            <h1>.</h1>
+          </div>
           <div className="course">
             <h1>
               12<sup>th</sup>(PCM)
@@ -80,6 +84,30 @@ export default function Home() {
             <p>score:85%</p>
           </div>
         </div>
+      </div>
+
+      {/* projects part */}
+      <div className="projects">
+       <div className="project1">
+        <img src="" alt="coffee shop management" />
+
+
+
+
+
+
+
+       </div>
+       <div className="project2"></div>
+       <div className="project3"></div>
+       <div className="project4"></div>
+
+
+
+
+
+
+
       </div>
 
       {/* contact through email */}
