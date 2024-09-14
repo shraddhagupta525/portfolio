@@ -87,28 +87,33 @@ export default function Home() {
       </div>
 
       {/* projects part */}
-      <div className="projects">
-       <div className="project1">
-        <img src="" alt="coffee shop management" />
+      <h1 className="project-headline">Projects</h1>
+      <div class="projects">
+  <div class="project-card">
+    <img src="src/assets/coretto.jpg" alt="coffee shop management" />
+    <div class="project-details">
+      <h3>Coffee Shop Management System</h3>
+      <p>A web-based system to manage orders and staff at a coffee shop, developed using C# .NET and MVC.</p>
+    </div>
+  </div>
+  
+  <div class="project-card">
+    <img src="src/assets/medic_world.webp" alt="medic world image" />
+    <div class="project-details">
+      <h3>Medic World</h3>
+      <p>An online platform offering healthcare solutions, allowing users to book appointments, purchase medicines, and more.</p>
+    </div>
+  </div>
+  
+  <div class="project-card">
+    <img src="src/assets/calc.png" alt="calculator" />
+    <div class="project-details">
+      <h3>Calculator</h3>
+      <p>A functional calculator built using JavaScript, with support for basic mathematical operations.</p>
+    </div>
+  </div>
+</div>
 
-
-
-
-
-
-
-       </div>
-       <div className="project2"></div>
-       <div className="project3"></div>
-       <div className="project4"></div>
-
-
-
-
-
-
-
-      </div>
 
       {/* contact through email */}
       <section className="contact">
