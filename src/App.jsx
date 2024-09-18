@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './Components/Header/Header'
+import Header from './Components/Header'
 import Footer from './Components/footer/footer'
 import Home from './Home'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
