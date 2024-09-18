@@ -1,26 +1,61 @@
+/* Header Navigation */
 header ul {
   display: flex;
-  padding: 4%;
+  padding: 1%;
   justify-content: space-around;
   align-items: center;
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
 }
+
 header .navi {
   background-color: #10b981;
-  padding: 1px 2%;
+  padding: 10px 20px; /* Increased padding for better spacing */
   border: 2px solid #10b981;
   border-radius: 45px;
   color: white;
   height: fit-content;
   width: fit-content;
+  font-size: 1.1rem; /* Adjusted font size */
+  font-weight: 500; /* Slightly bold text */
   transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  cursor: pointer; /* Change to pointer on hover */
 }
 
 header .navi:hover {
   background-color: #0e9e73;  
   color: #fff; 
   border-color: #0e9e73;  
-  transform: scale(1.05); 
+  transform: scale(1.08); /* Increased hover scale */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
 }
+
+/* Additional Styling for Header */
+header {
+  background-color: #e7f3ea; /* Light background for contrast */
+  padding: 20px 0;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Header shadow */
+  
+  z-index: 10; /* Ensure header stays above content */
+}
+
+/* Styling for list items */
+header ul li {
+  margin: 0 15px; /* Space between nav items */
+}
+
+header ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from .navi */
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+header ul li a:hover {
+  color: #f0fdf4; /* Hover effect on links */
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   header ul {
     display: flex;
