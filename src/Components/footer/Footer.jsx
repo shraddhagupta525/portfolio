@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 import { SiLeetcode } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 export default function Footer() {
   return (
@@ -48,22 +49,17 @@ export default function Footer() {
         </div>
         <div className="navigation">
           <h2>Navigation</h2>
-          <ul className="menu">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Projects</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
+          <Link activeClass="active" smooth spy to="home">
+              Home
+            </Link>
+            <Link activeClass="active" smooth spy to="about">
+              About
+            </Link>
+            <Link activeClass="active" smooth spy to="project">
+              Project
+            </Link>
         </div>
-        <div className="contact">
+        <div className="contact" id="contact">
           <h2>Contact</h2>
           <ul>
             <li>

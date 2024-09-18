@@ -1,30 +1,31 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
     <>
       <header>
         <ul className="navp">
-          <Link to="/" className="navi">
+          <Link activeClass="active" smooth spy to="home" className="navi">
             Home
           </Link>
-          <Link to="/about" className="navi">
+          <Link activeClass="active" smooth spy to="about" className="navi">
             About
           </Link>
 
-          <Link
-            to="https://docs.google.com/document/d/123HrTR7rbv5S4d1nqjHkj5I7CQtYZckqdfUGkAIotSo/edit?usp=sharing"
-            target="_blank"
+          <a
+            activeClass="active"
             className="navi"
+            href="https://docs.google.com/document/d/123HrTR7rbv5S4d1nqjHkj5I7CQtYZckqdfUGkAIotSo/edit?usp=sharing"
+            download
           >
             Resume
-          </Link>
-          <Link to="/project" className="navi">
+          </a>
+          <Link activeClass="active" smooth spy to="project" className="navi">
             Projects
           </Link>
-          <Link to="/contact" className="navi">
+          <Link activeClass="active" smooth spy to="contact" className="navi">
             Contact
           </Link>
         </ul>
@@ -32,4 +33,3 @@ export default function Header() {
     </>
   );
 }
-

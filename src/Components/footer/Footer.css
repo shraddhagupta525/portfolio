@@ -62,9 +62,113 @@ footer .contact {
   padding: 0%;
   width: 30%;
   margin: 0%;
+  color: white;
 }
 footer .navigation {
   padding: 0 2%;
   margin: 0%;
   width: 30%;
+  color: white !important;
+  display: flex;
+  flex-direction: column;
+}
+h2{
+  color: white !important;
+}
+.menu{
+  color: white !important;
+}
+/* responsive */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  footer {
+    background-color: rgb(38, 35, 35);
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    height: 400px;
+  }
+
+  .connect {
+    display: flex;
+    margin-left: 8%;
+  }
+
+  .connect-txt {
+    color: white;
+    margin-top: 1%;
+  }
+
+  .connect-btn {
+    padding: 10px 15px;
+    margin-left: 65%;
+    margin-top: 1%;
+    background-color: #10b981;
+    border: 2px solid #10b981;
+    border-radius: 24px;
+  }
+
+  .connect-btn .inner-connect {
+    color: white;
+  }
+
+  .horizontal-line {
+    width: 87%;
+    margin-top: 3%;
+    margin-left: 8%;
+  }
+
+  .bio {
+    color: white;
+    margin-top: 3%;
+    font-size: 0.85rem;
+    text-align: justify;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 6px;
+  }
+
+  .social-links svg {
+    color: white;
+  }
+
+  footer .details {
+    margin: 50px 7%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .social {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    padding: 0 2%;
+  }
+
+  footer .contact {
+    padding: 0 2%;
+    margin-top: 0%;
+    padding: 0%;
+    width: 30%;
+    margin: 0%;
+    color: white;
+  }
+
+  footer .navigation {
+    padding: 0 2%;
+    margin: 0%;
+    width: 30%;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    color: white !important;
+  }
+
+  .menu {
+    color: white !important;
+  }
 }

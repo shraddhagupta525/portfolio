@@ -21,3 +21,29 @@ header .navi:hover {
   border-color: #0e9e73;  
   transform: scale(1.05); 
 }
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  header ul {
+    display: flex;
+    padding: 4%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header .navi {
+    background-color: #10b981;
+    padding: 1px 2%;
+    border: 2px solid #10b981;
+    border-radius: 45px;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    transition: all 0.3s ease;
+  }
+
+  header .navi:hover {
+    background-color: #0e9e73;
+    color: #fff;
+    border-color: #0e9e73;
+    transform: scale(1.05);
+  }
+}
