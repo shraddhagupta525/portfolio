@@ -3,6 +3,11 @@ import "./Home.css";
 import { MdEmail } from "react-icons/md";
 import { FaChevronCircleRight } from "react-icons/fa";
 import { Link } from "react-scroll";
+import calc from "./assets/calc.png";
+import formal from "./assets/formal.jpeg";
+import medic_world from "./assets/medic_world.webp";
+import coretto from "./assets/coretto.jpg";
+
 
 
 export default function Home() {
@@ -29,7 +34,7 @@ export default function Home() {
         <br />
         {/* profile image */}
         <img
-          src="/src/assets/formal.jpeg"
+          src={formal}
           className="profile-image"
           alt="Shraddha's photo"
         />
@@ -95,7 +100,7 @@ export default function Home() {
       <h1 className="project-headline" id="project">Projects</h1>
       <div class="projects">
   <div class="project-card">
-    <img src="src/assets/coretto.jpg" alt="coffee shop management" />
+    <img src={coretto} alt="coffee shop management" />
     <div class="project-details">
       <h3>Coffee Shop Management System</h3>
       <p>A web-based system to manage orders  at a coffee shop, developed using C# .NET and MVC.</p>
@@ -108,7 +113,7 @@ export default function Home() {
   </div>
   
   <div class="project-card">
-    <img src="src/assets/medic_world.webp" alt="medic world image" />
+    <img src={medic_world} alt="medic world image" />
     <div class="project-details">
       <h3>Medic World</h3>
       <p>An online platform offering healthcare solutions, allowing users to book appointments, purchase medicines, and more.</p>
@@ -121,7 +126,7 @@ export default function Home() {
   </div>
   
   <div class="project-card">
-    <img src="src/assets/calc.png" alt="calculator" />
+    <img src={calc} alt="calculator" />
     <div class="project-details">
       <h3>Calculator</h3>
       <p>A functional calculator built using JavaScript, with support for basic mathematical operations.</p>
