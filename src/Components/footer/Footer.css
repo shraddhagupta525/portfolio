@@ -72,6 +72,9 @@ footer .navigation {
   display: flex;
   flex-direction: column;
 }
+footer a{
+  color: white;
+}
 h2{
   color: white !important;
 }
@@ -79,7 +82,7 @@ h2{
   color: white !important;
 }
 /* responsive */
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (max-width: 368px) {
   footer {
     background-color: rgb(38, 35, 35);
     border-top-right-radius: 24px;

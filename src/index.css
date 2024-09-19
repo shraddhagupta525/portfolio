@@ -7,6 +7,7 @@ p, a, button, h1, h2, h3, h4, h5, h6, input, textarea, label, li, span {
   font-optical-sizing: auto;
   color:rgb(49, 48, 48);
   line-height: 1.5;
+  text-decoration: none;
 }
 
 
