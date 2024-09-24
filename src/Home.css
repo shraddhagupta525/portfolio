@@ -54,13 +54,15 @@
 }
 .full-intro {
   font-size: medium;
+  
+  
 }
 .about-me-btn {
   display: flex;
   flex-direction: row;
   margin-top: 5%;
-  width: 40%;
-  padding: 3%;
+  width: 14%;
+  padding: 1%;
   height: fit-content;
   /* width: fit-content; */
   color: white;

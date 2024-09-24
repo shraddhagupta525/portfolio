@@ -8,8 +8,6 @@ import formal from "./assets/formal.jpeg";
 import medic_world from "./assets/medic_world.webp";
 import coretto from "./assets/coretto.jpg";
 
-
-
 export default function Home() {
   return (
     <>
@@ -23,21 +21,22 @@ export default function Home() {
               A Frontend focused Web Developer building the Frontend of Websites
               and Web Applications that leads to the success of the overall
               product
-
-            <Link activeClass="active" smooth spy to="about" className="about-me-btn">
-              About Me <FaChevronCircleRight className="right-icon" />
-            </Link>
-            
             </p>
           </span>
+          <Link
+            activeClass="active"
+            smooth
+            spy
+            to="about"
+            className="about-me-btn"
+          >
+            About Me <FaChevronCircleRight className="right-icon" />
+          </Link>
         </h1>
+
         <br />
         {/* profile image */}
-        <img
-          src={formal}
-          className="profile-image"
-          alt="Shraddha's photo"
-        />
+        <img src={formal} className="profile-image" alt="Shraddha's photo" />
       </div>
 
       {/* About me */}
@@ -51,10 +50,10 @@ export default function Home() {
             <p>Jalandhar, Punjab | Sep-2021 to May-2025</p>
           </div>
           <div className="dots">
-                <span className="dot-outer">
-                  <p className="dot red"></p>
-                </span>
-              </div>
+            <span className="dot-outer">
+              <p className="dot red"></p>
+            </span>
+          </div>
           <div className="course">
             <h1>B.Tech Computer Science</h1>
             <p>CGPA:7.01</p>
@@ -66,10 +65,10 @@ export default function Home() {
             <p>Varanasi, Uttar Pradesh | July-2019 to May 2020</p>
           </div>
           <div className="dots">
-                <span className="dot-outer">
-                  <p className="dot red"></p>
-                </span>
-              </div>
+            <span className="dot-outer">
+              <p className="dot red"></p>
+            </span>
+          </div>
           <div className="course">
             <h1>
               12<sup>th</sup>(PCM)
@@ -83,10 +82,10 @@ export default function Home() {
             <p>Mirzapur, Uttar Pradesh | July-2017 to May 2018</p>
           </div>
           <div className="dots">
-                <span className="dot-outer">
-                  <p className="dot red"></p>
-                </span>
-              </div>
+            <span className="dot-outer">
+              <p className="dot red"></p>
+            </span>
+          </div>
           <div className="course">
             <h1>
               10<sup>th</sup>
@@ -97,47 +96,70 @@ export default function Home() {
       </div>
 
       {/* projects part */}
-      <h1 className="project-headline" id="project">Projects</h1>
+      <h1 className="project-headline" id="project">
+        Projects
+      </h1>
       <div class="projects">
-  <div class="project-card">
-    <img src={coretto} alt="coffee shop management" />
-    <div class="project-details">
-      <h3>Coffee Shop Management System</h3>
-      <p>A web-based system to manage orders  at a coffee shop, developed using C# .NET and MVC.</p>
+        <div class="project-card">
+          <img src={coretto} alt="coffee shop management" />
+          <div class="project-details">
+            <h3>Coffee Shop Management System</h3>
+            <p>
+              A web-based system to manage orders at a coffee shop, developed
+              using C# .NET and MVC.
+            </p>
+          </div>
+          <div className="learn-more2">
+            <a
+              href="https://github.com/shraddhagupta525/coffee_shop_ASP.NET"
+              target="_blank"
+              className="learn-more"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
 
-    </div>
-    <div className="learn-more2">
+        <div class="project-card">
+          <img src={medic_world} alt="medic world image" />
+          <div class="project-details">
+            <h3>Medic World</h3>
+            <p>
+              An online platform offering healthcare solutions, allowing users
+              to book appointments, purchase medicines, and more.
+            </p>
+          </div>
+          <div className="learn-more2">
+            <a
+              href="https://github.com/kuldeepvarma7413/Medic-World-Application-JAVA"
+              target="_blank"
+              className="learn-more"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
 
-      <a href="https://github.com/shraddhagupta525/coffee_shop_ASP.NET" target="_blank" className="learn-more">Learn More</a>
-    </div>
-  </div>
-  
-  <div class="project-card">
-    <img src={medic_world} alt="medic world image" />
-    <div class="project-details">
-      <h3>Medic World</h3>
-      <p>An online platform offering healthcare solutions, allowing users to book appointments, purchase medicines, and more.</p>
-    </div>
-    <div className="learn-more2">
-
-      <a href="https://github.com/kuldeepvarma7413/Medic-World-Application-JAVA" target="_blank" className="learn-more">Learn More</a>
-    </div>
-
-  </div>
-  
-  <div class="project-card">
-    <img src={calc} alt="calculator" />
-    <div class="project-details">
-      <h3>Calculator</h3>
-      <p>A functional calculator built using JavaScript, with support for basic mathematical operations.</p>
-    </div>
-    <div className="learn-more2">
-
-      <a href="https://github.com/shraddhagupta525/calculator" target="_blank" className="learn-more">Learn More</a>
-    </div>
-  </div>
-</div>
-
+        <div class="project-card">
+          <img src={calc} alt="calculator" />
+          <div class="project-details">
+            <h3>Calculator</h3>
+            <p>
+              A functional calculator built using JavaScript, with support for
+              basic mathematical operations.
+            </p>
+          </div>
+          <div className="learn-more2">
+            <a
+              href="https://github.com/shraddhagupta525/calculator"
+              target="_blank"
+              className="learn-more"
+            >
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
 
       {/* contact through email */}
       <section className="contact">
@@ -154,7 +176,6 @@ export default function Home() {
             Send
           </button>
         </form>
-        
       </section>
     </>
   );
